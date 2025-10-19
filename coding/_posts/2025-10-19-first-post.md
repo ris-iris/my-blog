@@ -39,4 +39,4 @@ There are also ``tags``, which you can iterate over, but they are not included i
 I decided not to touch collections for now, because it seems I don't really need them.
 
 ## Make it pretty!
-
+I can tolerate the font and the colors of my blog at this stage, but the "Home" title on the home page irritates me. So, we are going to change the layout. I browsed for a bit existing Jekyll themes, and will use the [minima layeout](https://github.com/jekyll/minima/tree/master/_layouts) to begin with. So, I just copy them, and then edit some things here and there.
