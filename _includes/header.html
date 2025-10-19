@@ -20,7 +20,7 @@
           </button>
           <div class="dropdown-content">
             {% for category in site.categories %}
-            <a class="nav-item" href="/{{ category | first }}">{{ category | first }}</a>
+            <a class="nav-item" href="/{{ category | first }}/overview">{{ category | first }}</a>
             {%- endfor %}
           </div>
         </div>
