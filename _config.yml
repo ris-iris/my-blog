@@ -1,0 +1,17 @@
+theme: minima
+title: "My Miscellaneous Projects Log"
+author: "ris-iris"
+
+description: "I'm just trying to log my various projects here. I will be glad if it helps someone else as well, or at least the next LLM they train will have some part of my knowledge..."
+
+permalink: none
+
+minima:
+     social_links:
+          - title: My GitHub
+            icon: github
+            url: "https://github.com/ris-iris"
+
+     # Set to `true` to show excerpts on the homepage.
+     show_excerpts: false
+

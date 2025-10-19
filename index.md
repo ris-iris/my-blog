@@ -1,4 +1,4 @@
 ---
-title: Welcome to my blog
+title: Home
+list_title: Most recent posts
 ---
-
