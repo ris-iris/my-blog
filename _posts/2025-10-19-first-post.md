@@ -1,7 +1,7 @@
 ---
 title: A post about how I created this post
 date: 2025-10-19
-categories: coding
+tags: github_pages
 ---
 
 Ok, so I decided to start a blog. And I decided to use Github Pages for this purpose. This post is documenting my attempt at creating this post and the blog in general (and I find it quite funny).
@@ -31,4 +31,12 @@ After this step, my newborn blog looked like this:
   <p>And, apparently, you can not use markdown inside the markup part, so if you are not fluent in HTML, use a converter like this one: https://markdowntohtml.com/</p>
 </details>
 
-## Now, what do I do next
+## Understand categories
+I noticed in some of the examples I looked through, there were ``categories``, which seem useful for me, because I'm planning on logging all my various hobbies in here. So, turns out, you can create multiple folders and add ``_posts`` subfolder to automatically set categories for a post (this is the point where I move this file to a new folder). You don't have to, anyway the url of a post with a category will look like ``blog_url/category/post``
+
+There are also ``tags``, which you can iterate over, but they are not included in the path to the post. This can be useful for more precise definition of the topics of the post, I guess...
+
+I decided not to touch collections for now, because it seems I don't really need them.
+
+## Make it pretty!
+
