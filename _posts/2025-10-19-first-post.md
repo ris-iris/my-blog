@@ -11,14 +11,14 @@ It's really easy, you just go to [the documentation](https://docs.github.com/en/
 I additionally tried to add ``description`` field to my ``_config.yml`` to see what happens.
 
 After this step, my newborn blog looked like this:
-<img src="images/my_blog_screenshot_2025-10-19_13:30.png"/>
+<img src="../images/my_blog_screenshot_2025-10-19_13:30.png"/>
 
 <details>
     <summary>A side note on HTML markups</summary>
     <p>To add an image to the post, you can:</p>
     <ol>
     <li>Create a folder <code>images</code> in the repo and add an image there</li>
-    <li>Add an image with <code>&lt;img src=&quot;images/your-image-file&quot;/&gt;</code></li>
+    <li>Add an image with <code>&lt;img src=&quot;relative-path-to-images/your-image-file&quot;/&gt;</code></li>
     </ol>
     <p>To create a toggle use:</p>
     <pre><code>`<span class="javascript"></span>``<span class="javascript">
