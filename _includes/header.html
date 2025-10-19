@@ -14,16 +14,7 @@
         </label>
 
         {% include nav-items.html paths = page_paths %}
-        <div class="dropdown">
-          <button class="dropbtn">Categories
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            {% for category in site.categories %}
-            <a class="dropdown-content" href="{{ category | first | prepend: "/"  | relative_url}}/overview.html">{{ category | first | capitalize }}</a>
-            {%- endfor %}
-          </div>
-        </div>
+       
       </nav>
     {%- endunless %}
   </div>
