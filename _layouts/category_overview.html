@@ -6,20 +6,19 @@ layout: base
   
   {{ content }}
 
-  {% assign page_category = page.categories | first %}
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
   {% else %}
     {% assign posts = site.posts %}
   {% endif %}
 
-  <h2 class="post-list-heading">Posts in category {{ page_category }}</h2>
+  <h2 class="post-list-heading">Posts in category {{ page.category }}</h2>
 
   {%- if posts.size > 0 -%}
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
-      {% if post.categories contains page_category %}
+      {% if post.categories contains page.category %}
       <li>
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
