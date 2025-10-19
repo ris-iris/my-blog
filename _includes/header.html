@@ -20,7 +20,7 @@
           </button>
           <div class="dropdown-content">
             {% for category in site.categories %}
-            <a class="nav-item" href="{{ category | first | prepend: "/"  | relative_url}}/overview.html">{{ category | first | capitalize }}</a>
+            <a class="dropdown-content" href="{{ category | first | prepend: "/"  | relative_url}}/overview.html">{{ category | first | capitalize }}</a>
             {%- endfor %}
           </div>
         </div>
