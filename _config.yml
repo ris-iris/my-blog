@@ -1,8 +1,18 @@
 theme: minima
 title: "My Miscellaneous Projects Log"
-author: "ris_iris"
+author: "ris-iris"
 
 description: "I'm just trying to log my various projects here. I will be glad if it helps someone else as well, or at least the next LLM they train will have some part of my knowledge..."
 
 permalink: none
 
+social_links:
+     - title: My GitHub
+       icon: github
+       url: "https://github.com/ris-iris"
+
+#   Hide syndication feed subscription link.
+#     RSS / Atom feed link is always rendered as the last item of social-links
+#     list. Set below key to `true` to not have the link to feed rendered as
+#     part of social-links list.
+   hide_site_feed_link: true
