@@ -15,24 +15,25 @@ layout: base
   <h2 class="post-list-heading">Posts in category {{ page.category | capitalize }}</h2>
 
   {%- if posts.size > 0 -%}
-    <ul class="post-list">
+    <div class="gallery-container">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
       {% if post.categories contains page.category %}
-      <li>
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.minima.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {% endif %}
-      {%- endfor -%}
-    </ul>
+      <div class="gallery-item">
+        <a href="{{ post.url | relative_url }}">
+          <img src="{{ post.picture }}" alt="{{post.title}}" class="w-full max-w-screen-sm h-auto shadow-md">
+          <div class="overlay">
+            <div class="overlay-text">
+              <h3>{{ post.title | escape }}</h3>
+              {%- if site.minima.show_excerpts -%}
+                <p>{{ post.excerpt }}</p>
+              {%- endif -%}
+            </div>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
 
     {% if site.paginate %}
       <div class="pager">
