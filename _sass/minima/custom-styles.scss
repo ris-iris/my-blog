@@ -72,9 +72,23 @@
   align-items: center;
 }
 
-.text {
+.overlay-text {
   color: white;
   text-align: center;
+  padding: 1rem;
+  max-width: 90%;
+}
+
+.overlay-text h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.overlay-text p {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  margin: 0;
 }
 
 .gallery-item:hover img {
