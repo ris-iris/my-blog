@@ -11,7 +11,7 @@ It's really easy, you just go to [the documentation](https://docs.github.com/en/
 I additionally tried to add ``description`` field to my ``_config.yml`` to see what happens.
 
 After this step, my newborn blog looked like this:
-<img src="/my-blog/coding/images/my_blog_screenshot_2025-10-19_13:30.png"/>
+<img width="50%" src="/my-blog/coding/images/my_blog_screenshot_2025-10-19_13:30.png"/>
 
 <details>
     <summary>A side note on HTML markups</summary>
@@ -38,6 +38,8 @@ There are also ``tags``, which you can iterate over, but they are not included i
 
 I decided not to touch collections for now, because it seems I don't really need them.
 
+Another thing I noticed at this point, is that the path to the post is quite long with the year, month and date before the name of the post, which I didn't particularly like. To just output the path like `category/post-title`, I set the permalink attribute in the `_config.yml` to `permalink: none`.
+
 ## Make it pretty!
 I can tolerate font, colors, and all other questionable design choises of my blog at this stage, but the "Home" title on the home page irritates me so much. So, we are going to change the layout. I browsed existing Jekyll themes for a bit, and will use the [minima layouts](https://github.com/jekyll/minima/tree/master/_layouts) to begin with. So, as any good programmer, I just copy them, and then edit some things here and there...
 
@@ -58,4 +60,4 @@ And, allow me to present a piece of code I'm proud of, that creates a dropdown f
 </div>
 ```
 
-At this point I figured out I need to add the dropdown style to `_sass/minima/custop-styles.scss`, but look at this slight mismatch: <img src="/my-blog/coding/images/my_blog_screenshot_2025-10-20.png"/>, and I'm not proud of this, but I fixed it by hardcoding the `padding-top: 15px;` into the dropdown style.
+At this point I figured out I need to add the dropdown style to `_sass/minima/custop-styles.scss`, but look at this slight mismatch: <img src="/my-blog/coding/images/my_blog_screenshot_2025-10-20.png"/>, and I'm not proud of this, but I fixed it by hardcoding the `padding-top: 13px;` into the dropdown style.
