@@ -11,14 +11,14 @@ It's really easy, you just go to [the documentation](https://docs.github.com/en/
 I additionally tried to add ``description`` field to my ``_config.yml`` to see what happens.
 
 After this step, my newborn blog looked like this:
-<img src="../images/my_blog_screenshot_2025-10-19_13:30.png"/>
+<img src="/my-blog/coding/images/my_blog_screenshot_2025-10-19_13:30.png"/>
 
 <details>
     <summary>A side note on HTML markups</summary>
     <p>To add an image to the post, you can:</p>
     <ol>
     <li>Create a folder <code>images</code> in the repo and add an image there</li>
-    <li>Add an image with <code>&lt;img src=&quot;relative-path-to-images/your-image-file&quot;/&gt;</code></li>
+    <li>Add an image with <code>&lt;img src=&quot;path-to-images/your-image-file&quot;/&gt;</code></li>
     </ol>
     <p>To create a toggle use:</p>
     <pre><code>`<span class="javascript"></span>``<span class="javascript">
@@ -39,4 +39,19 @@ There are also ``tags``, which you can iterate over, but they are not included i
 I decided not to touch collections for now, because it seems I don't really need them.
 
 ## Make it pretty!
-I can tolerate the font and the colors of my blog at this stage, but the "Home" title on the home page irritates me. So, we are going to change the layout. I browsed existing Jekyll themes for a bit, and will use the [minima layouts](https://github.com/jekyll/minima/tree/master/_layouts) to begin with. So, as any good programmer, I just copy them, and then edit some things here and there.
+I can tolerate font, colors, and all other questionable design choises of my blog at this stage, but the "Home" title on the home page irritates me so much. So, we are going to change the layout. I browsed existing Jekyll themes for a bit, and will use the [minima layouts](https://github.com/jekyll/minima/tree/master/_layouts) to begin with. So, as any good programmer, I just copy them, and then edit some things here and there...
+
+... important note, when you copy the theme `_layouts` and `_includes`, don't forget to copy `_sass` and `assets` as well (otherwise the result will look quite ugly, but I'm not judging if it's what you were going for).
+
+And, allow me to present a piece of code I'm proud of, that creates a dropdown for categories in the navigation bar (it goes into `_includes/nav-items` right after the list of `nav-item`-s):
+```html
+<div class="dropdown">
+<button class="dropbtn">Categories
+  <i class="fa fa-caret-down"></i>
+</button>
+<div class="dropdown-content">
+  {% for category in site.categories %}
+  <a class="dropdown-content" href="{{ category | first | prepend: "/"  | relative_url}}/overview.html">{{ category | first | capitalize }}</a>
+  {%- endfor %}
+</div>
+```
