@@ -1,5 +1,5 @@
 ---
-title: A post about how I created this post
+title: A post about this post creation
 date: 2025-10-19
 tags: github_pages
 ---
@@ -11,6 +11,7 @@ It's really easy, you just go to [the documentation](https://docs.github.com/en/
 I additionally tried to add ``description`` field to my ``_config.yml`` to see what happens.
 
 After this step, my newborn blog looked like this:
+
 <img width="50%" src="/my-blog/coding/images/my_blog_screenshot_2025-10-19_13:30.png"/>
 
 <details>
