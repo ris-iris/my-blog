@@ -60,4 +60,4 @@ And, allow me to present a piece of code I'm proud of, that creates a dropdown f
 </div>
 ```
 
-At this point I figured out I need to add the dropdown style to `_sass/minima/custop-styles.scss`, but look at this slight mismatch: <img src="/my-blog/coding/images/my_blog_screenshot_2025-10-20.png"/>, and I'm not proud of this, but I fixed it by hardcoding the `padding-top: 13px;` into the dropdown style.
+At this point I figured out I need to add the dropdown style to `_sass/minima/custop-styles.scss`, but look at this slight mismatch: <img src="/my-blog/coding/images/my_blog_screenshot_2025-10-20.png"/>, and it took me quite a lot of trial and error to figure out the combination of parameters for the styles, that will even thing out. So, maybe I should have learned a bit of css before copypasting things... Anyways, it worked in the end!
