@@ -11,7 +11,7 @@ It's really easy, you just go to [the documentation](https://docs.github.com/en/
 I additionally tried to add ``description`` field to my ``_config.yml`` to see what happens.
 
 After this step, my newborn blog looked like this:
-<img src="/my-blog/coding/images/my_blog_screenshot_2025-10-19_13:30.png"/>
+<img width="50%" src="/my-blog/coding/images/my_blog_screenshot_2025-10-19_13:30.png"/>
 
 <details>
     <summary>A side note on HTML markups</summary>
