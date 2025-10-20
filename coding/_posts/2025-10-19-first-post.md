@@ -40,6 +40,8 @@ I decided not to touch collections for now, because it seems I don't really need
 
 Another thing I noticed at this point, is that the path to the post is quite long with the year, month and date before the name of the post, which I didn't particularly like. To just output the path like `category/post-title`, I set the permalink attribute in the `_config.yml` to `permalink: none`.
 
+Generally, I would advise you to check out [the config of minima theme](https://github.com/jekyll/minima/blob/master/_config.yml), it has enough comments to make sense of what is happening.
+
 ## Make it pretty!
 I can tolerate font, colors, and all other questionable design choises of my blog at this stage, but the "Home" title on the home page irritates me so much. So, we are going to change the layout. I browsed existing Jekyll themes for a bit, and will use the [minima layouts](https://github.com/jekyll/minima/tree/master/_layouts) to begin with. So, as any good programmer, I just copy them, and then edit some things here and there...
 
@@ -48,3 +50,9 @@ I can tolerate font, colors, and all other questionable design choises of my blo
 And, allow me to present a [piece of code](https://github.com/ris-iris/my-blog/blob/c7946fe79f55026db08954b93119e531382b6b28/_includes/nav-items.html) I'm proud of, that creates a dropdown for categories in the navigation bar (it goes into `_includes/nav-items` right after the list of `nav-item`-s):
 
 At this point I figured out I need to add the dropdown style to `_sass/minima/custop-styles.scss`, but look at this slight mismatch: <img src="/my-blog/coding/images/my_blog_screenshot_2025-10-20.png" style="box-shadow: 3px 3px 3px gray;"/>, and it took me quite a lot of trial and error to figure out the combination of parameters for the styles, that will even thing out. So, maybe I should have learned a bit of css before copypasting things... Anyways, it worked in the end!
+
+### Make it even pretier
+I have some visually heavy projects in mind, and when I saw the [wind theme](https://github.com/a-chacon/wind/tree/main), I knew I want a galery of posts with nice thumbnail pictures too.
+And turns out that I just need an image grid for that, sound quite simple, right? Based on [this tutorial](https://www.w3schools.com/howto/howto_js_image_grid.asp), you just divide all the posts in columns and make the column style ``flex``. But how do you do it, if you need to iterate over all the posts you have? And here I gave up and went to Claude for answers about the wind layouts... It's not too complicated, but this time I want to understand what the css style is doing beforehand.
+
+
