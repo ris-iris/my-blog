@@ -44,15 +44,17 @@ I can tolerate font, colors, and all other questionable design choises of my blo
 ... important note, when you copy the theme `_layouts` and `_includes`, don't forget to copy `_sass` and `assets` as well (otherwise the result will look quite ugly, but I'm not judging if it's what you were going for).
 
 And, allow me to present a piece of code I'm proud of, that creates a dropdown for categories in the navigation bar (it goes into `_includes/nav-items` right after the list of `nav-item`-s):
+
 ```
 <div class="dropdown">
-<button class="dropbtn">Categories
-  <i class="fa fa-caret-down"></i>
-</button>
-<div class="dropdown-content">
-  {% for category in site.categories %}
-  <a class="dropdown-content" href="{{ category | first | prepend: "/"  | relative_url}}/overview.html">{{ category | first | capitalize }}</a>
-  {%- endfor %}
+    <button class="dropbtn">Categories
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      {% for category in site.categories %}
+      <a class="dropdown-content" href="{{ category | first | prepend: "/"  | relative_url}}/overview.html">{{ category | first | capitalize }}</a>
+      {%- endfor %}
+    </div>
 </div>
 ```
 
