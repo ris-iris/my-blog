@@ -18,7 +18,7 @@ After this step, my newborn blog looked like this:
     <p>To add an image to the post, you can:</p>
     <ol>
     <li>Create a folder <code>images</code> in the repo and add an image there</li>
-    <li>Add an image with <code>&lt;img src=&quot;path-to-images/your-image-file&quot;/&gt;</code></li>
+    <li>Add an image with <code>&lt;img src=&quot;path-to-images-from-the-root/your-image-file&quot;/&gt;</code></li>
     </ol>
     <p>To create a toggle use:</p>
     <pre><code>`<span class="javascript"></span>``<span class="javascript">
@@ -44,7 +44,7 @@ I can tolerate font, colors, and all other questionable design choises of my blo
 ... important note, when you copy the theme `_layouts` and `_includes`, don't forget to copy `_sass` and `assets` as well (otherwise the result will look quite ugly, but I'm not judging if it's what you were going for).
 
 And, allow me to present a piece of code I'm proud of, that creates a dropdown for categories in the navigation bar (it goes into `_includes/nav-items` right after the list of `nav-item`-s):
-```html
+```
 <div class="dropdown">
 <button class="dropbtn">Categories
   <i class="fa fa-caret-down"></i>
@@ -55,3 +55,5 @@ And, allow me to present a piece of code I'm proud of, that creates a dropdown f
   {%- endfor %}
 </div>
 ```
+
+And, at this point I figured out I need to add the dropdown style to `_sass/minima/custop-styles.scss`, but look at this slight mismatch: <img src="/my-blog/coding/images/my_blog_screenshot_2025-10-20.png"/>
