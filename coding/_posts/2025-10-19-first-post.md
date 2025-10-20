@@ -2,6 +2,7 @@
 title: A post about this post creation
 date: 2025-10-19
 tags: github_pages
+picture: /my-blog/coding/images/my_blog_screenshot_2025-10-19_13:30.png
 ---
 
 Ok, so I decided to start a blog. And I decided to use Github Pages for this purpose. This post is documenting my attempt at creating this post and the blog in general (and I find it quite funny).
