@@ -12,7 +12,7 @@ layout: base
     {% assign posts = site.posts %}
   {% endif %}
 
-  <h2 class="post-list-heading">Posts in category {{ page.category }}</h2>
+  <h2 class="post-list-heading">Posts in category {{ page.category | capitalize }}</h2>
 
   {%- if posts.size > 0 -%}
     <ul class="post-list">
