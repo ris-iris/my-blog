@@ -4,7 +4,7 @@
 .dropdown {
     display: block;
     margin-right: $spacing-unit * 0.5;
-    padding: 5px 0;
+    padding: 5px 10px;
     color: $text-color;
     line-height: $base-line-height;
     overflow: hidden;
@@ -18,7 +18,7 @@
   border: none;
   outline: none;
   color: $text-color;
-  padding: 14px 16px;
+  padding: 5px 0;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
