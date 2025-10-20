@@ -38,6 +38,8 @@ There are also ``tags``, which you can iterate over, but they are not included i
 
 I decided not to touch collections for now, because it seems I don't really need them.
 
+Another thing I noticed at this point, is that the path to the post is quite long with the year, month and date before the name of the post, which I didn't particularly like. To just output the path like `category/post-title`, I set the permalink attribute in the `_config.yml` to `permalink: none`.
+
 ## Make it pretty!
 I can tolerate font, colors, and all other questionable design choises of my blog at this stage, but the "Home" title on the home page irritates me so much. So, we are going to change the layout. I browsed existing Jekyll themes for a bit, and will use the [minima layouts](https://github.com/jekyll/minima/tree/master/_layouts) to begin with. So, as any good programmer, I just copy them, and then edit some things here and there...
 
