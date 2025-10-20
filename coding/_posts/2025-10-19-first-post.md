@@ -12,8 +12,7 @@ I additionally tried to add ``description`` field to my ``_config.yml`` to see w
 
 After this step, my newborn blog looked like this:
 
-<img width="50%" src="/my-blog/coding/images/my_blog_screenshot_2025-10-19_13:30.png"/>
-
+<img align="left" width="50%" src="/my-blog/coding/images/my_blog_screenshot_2025-10-19_13:30.png" style="box-shadow: 3px 3px 3px gray;"/>
 <details>
     <summary>A side note on HTML markups</summary>
     <p>To add an image to the post, you can:</p>
@@ -46,19 +45,6 @@ I can tolerate font, colors, and all other questionable design choises of my blo
 
 ... important note, when you copy the theme `_layouts` and `_includes`, don't forget to copy `_sass` and `assets` as well (otherwise the result will look quite ugly, but I'm not judging if it's what you were going for).
 
-And, allow me to present a piece of code I'm proud of, that creates a dropdown for categories in the navigation bar (it goes into `_includes/nav-items` right after the list of `nav-item`-s):
+And, allow me to present a [piece of code](https://github.com/ris-iris/my-blog/blob/c7946fe79f55026db08954b93119e531382b6b28/_includes/nav-items.html) I'm proud of, that creates a dropdown for categories in the navigation bar (it goes into `_includes/nav-items` right after the list of `nav-item`-s):
 
-```
-<div class="dropdown">
-    <button class="dropbtn">Categories
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      {% for category in site.categories %}
-      <a class="dropdown-content" href="{{ category | first | prepend: "/"  | relative_url}}/overview.html">{{ category | first | capitalize }}</a>
-      {%- endfor %}
-    </div>
-</div>
-```
-
-At this point I figured out I need to add the dropdown style to `_sass/minima/custop-styles.scss`, but look at this slight mismatch: <img src="/my-blog/coding/images/my_blog_screenshot_2025-10-20.png"/>, and it took me quite a lot of trial and error to figure out the combination of parameters for the styles, that will even thing out. So, maybe I should have learned a bit of css before copypasting things... Anyways, it worked in the end!
+At this point I figured out I need to add the dropdown style to `_sass/minima/custop-styles.scss`, but look at this slight mismatch: <img src="/my-blog/coding/images/my_blog_screenshot_2025-10-20.png" style="box-shadow: 3px 3px 3px gray;"/>, and it took me quite a lot of trial and error to figure out the combination of parameters for the styles, that will even thing out. So, maybe I should have learned a bit of css before copypasting things... Anyways, it worked in the end!
