@@ -2,7 +2,6 @@
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 /* The dropdown container */
 .dropdown {
-    position: relative;
     display: block;
     margin-right: $spacing-unit * 0.5;
     color: $text-color;
@@ -27,6 +26,8 @@
 .dropdown-content {
   display: none;
   position: absolute;
+  top: 100%;  // Position it directly below the button
+  right: 0;   // Align to the right edge of the parent (or use 'left: 0' for left alignment)
   background-color: $background-color;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
