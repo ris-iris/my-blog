@@ -24,4 +24,4 @@ To make the body of the beholder, I started to crochet a ball, which is a very c
 
 The eyes (both small and the large one) are made starting with a circle of black yarn and then continuing with white yarn. The big eye got attached to the body with the blue yarn chan, which looped over both the eye and the body at every second step. This chain was at the same time creating the eyelid. The small eye "stems" were made with the simplest crochet cord you can make (this only worked because of how chunky my yarn was, othervise consider a more fancy cord). I made a total of 6 small eyes and attached them symmetrically to the body. The mouth was just embroidered directly on the body.
 
-And there you have your practical beholder for your shiny math-rocks. Make one for your favourite DM as well, they deserve it!
+And there you have a menacing bag for your shiny math rocks. Make one for your favourite DM as well, they deserve it!
