@@ -10,7 +10,7 @@
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      {% for category in site.categories %}
+      {% for category in site.category %}
       <a class="dropdown-content" href="{{ category | first | prepend: "/"  | relative_url}}/overview.html">{{ category | first | capitalize }}</a>
       {%- endfor %}
     </div>
