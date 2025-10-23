@@ -6,12 +6,19 @@ description: "I'm just trying to log my various projects here. I will be glad if
 
 permalink: none
 
+plugins:
+  - jekyll-seo-tag
+  
 minima:
      social_links:
           - title: My GitHub
             icon: github
             url: "https://github.com/ris-iris"
+          - title: My Reddit
+            icon: reddit
+            url: "https://www.reddit.com/user/ris_iris"
 
      # Set to `true` to show excerpts on the homepage.
      show_excerpts: false
+
 
