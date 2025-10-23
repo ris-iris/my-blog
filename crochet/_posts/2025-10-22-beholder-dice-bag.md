@@ -2,7 +2,7 @@
 title: Behold! A lawful evil gift idea for your chaotic good DM
 date: 2025-10-22
 tags: DnD Amigurumi
-picture: /my-blog/crochet/images/beholder.png
+image: /my-blog/crochet/images/beholder.png
 ---
 
 I few month ago I decided to make a hand-made gift satisfying three constraints: 
