@@ -4,6 +4,7 @@ date: 2025-12-26
 tags: Amigurumi
 image: /my-blog/crochet/images/skeleton_hand.jpg
 ---
+
 This project was actually finished just in time for Halloween, but then life happened and I couldn't find the time to document it properly. So, here's how you crochet a sceleton hand.
 
 Start by crocheting the fingers:
