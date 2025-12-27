@@ -20,7 +20,7 @@ Start by crocheting the fingers:
 8. Crochet one row and then decrease back to 8 or even 6 loops
 9. Make the chain and then the ring again, and crochet the next 2 phalanges, this time making even more increases, in the end the fingers look something like this <img src="/my-blog/crochet/images/skeleton_hand_fingers.jpg" />
 
-The thumb is just another finger, but be careful, it has 3 cilinders in it instead of 4. However, as you can see in the picture, I decided to continue and crochet all the little bones that are placed at the base of the hand together with it. 
+The thumb is just another finger, but be careful, it has 3 cylinders in it instead of 4. However, as you can see in the picture, I decided to continue and crochet all the little bones that are placed at the base of the hand together with it. 
 <img src="/my-blog/crochet/images/skeleton_hand_thumb.jpg" />
 
 In hindsight, if I crocheted them separately it would give me more control over the proporions and the hand would look even better, but I was in a rush when I was doing it.
