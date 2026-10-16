@@ -7,6 +7,9 @@ if you want to learn more about these projects."
 
 meta_description: "Here I log various DIY and crafts project that I do."
 
+url: https://ris-iris.github.io
+baseurl: /my-blog
+
 permalink: none
 
 plugins:
