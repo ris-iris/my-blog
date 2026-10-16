@@ -5,16 +5,20 @@ author: "ris-iris"
 description: "I'm just trying to log my various projects here. I will be glad if it helps someone else as well. Feel free to reach out to me at ris.iris.misc.projects@gmail.com
 if you want to learn more about these projects."
 
+meta_description: "Here I log various DIY and crafts project that I do."
+
 permalink: none
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
   
 minima:
-     social_links:
-          - title: My GitHub
-            icon: github
-            url: "https://github.com/ris-iris"
+     #social_links:
+     #     - title: My GitHub
+     #       icon: github
+     #       url: "https://github.com/ris-iris"
 
      # Set to `true` to show excerpts on the homepage.
      show_excerpts: false
