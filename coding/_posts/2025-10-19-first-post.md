@@ -2,7 +2,7 @@
 title: A post about this post creation
 date: 2025-10-19
 tags: github_pages
-image: /my-blog/coding/images/my_blog_screenshot_2025-10-19_13:30.png
+image: /my-blog/coding/images/my_blog_screenshot_2025-10-19_13:30.webp
 ---
 
 Ok, so I decided to start a blog. And I decided to use Github Pages for this purpose. This post is documenting my attempt at creating this post and the blog in general (and I find it quite funny).
@@ -15,7 +15,7 @@ After this step, my newborn blog looked like this:
 <table style="width: 100%; table-layout: fixed; border-collapse: collapse; border: none;">
   <tr style="border: none;">
     <td style="width: 50%; padding: 10px; border-collapse: collapse; vertical-align: top; border: none;">
-     <img src="/my-blog/coding/images/my_blog_screenshot_2025-10-19_13:30.png" />
+     <img src="/my-blog/coding/images/my_blog_screenshot_2025-10-19_13:30.webp" />
     </td>
     <td style="width: 50%; padding: 10px; border-collapse: collapse; vertical-align: top; border: none;">
       <details>
@@ -57,7 +57,7 @@ I can tolerate font, colors, and all other questionable design choises of my blo
 
 And, allow me to present a [piece of code](https://github.com/ris-iris/my-blog/blob/c7946fe79f55026db08954b93119e531382b6b28/_includes/nav-items.html) I'm proud of, that creates a dropdown for categories in the navigation bar (it goes into `_includes/nav-items` right after the list of `nav-item`-s):
 
-At this point I figured out I need to add the dropdown style to `_sass/minima/custop-styles.scss`, but look at this slight mismatch: <img src="/my-blog/coding/images/my_blog_screenshot_2025-10-20.png" />, and it took me quite a lot of trial and error to figure out the combination of parameters for the styles, that will even thing out. So, maybe I should have learned a bit of css before copypasting things... Anyways, it worked in the end!
+At this point I figured out I need to add the dropdown style to `_sass/minima/custop-styles.scss`, but look at this slight mismatch: <img src="/my-blog/coding/images/my_blog_screenshot_2025-10-20.webp" />, and it took me quite a lot of trial and error to figure out the combination of parameters for the styles, that will even thing out. So, maybe I should have learned a bit of css before copypasting things... Anyways, it worked in the end!
 
 ### Make it even prettier
 I have some visually heavy projects in mind, and when I saw the [wind theme](https://github.com/a-chacon/wind/tree/main), I knew I want a galery of posts with nice thumbnail pictures too.
@@ -69,7 +69,7 @@ If you want your blog as soon as possible, then maybe just choose a theme that y
 2. Be prepared to use your residual markdown knowledge to it's fullest to create your home page and a post or two
    - If markdown isn't enough for your creative needs, just paste html right in the middle of your post, like I did here:
  
-     <img src="/my-blog/coding/images/my_blog_screenshot_2025-10-20_20:30.png" />
+     <img src="/my-blog/coding/images/my_blog_screenshot_2025-10-20_20:30.webp" />
 3. Check out Jekyll docs to get a little more insight about [front matters](https://jekyllrb.com/docs/front-matter/) and [Liquid](https://jekyllrb.com/docs/liquid/) magic
 4. Go through minima theme repo to get inspired and see some clear examples of the concepts you saw in the previous step
 5. Copy `_includes`, `_layouts`, `_sass`, and `assets` to your project
