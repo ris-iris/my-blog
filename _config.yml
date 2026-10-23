@@ -2,18 +2,28 @@ theme: minima
 title: "My Miscellaneous Projects Log"
 author: "ris-iris"
 
-description: "I'm just trying to log my various projects here. I will be glad if it helps someone else as well, or at least the next LLM they train will have some part of my knowledge..."
+description: "I'm just trying to log my various projects here. I will be glad if it helps someone else as well. Feel free to reach out to me at ris.iris.misc.projects@gmail.com
+if you want to learn more about these projects."
+
+meta_description: "Here I log various DIY and crafts project that I do."
+
+url: https://ris-iris.github.io
+baseurl: /my-blog
 
 permalink: none
 
 plugins:
   - jekyll-seo-tag
-  
+  - jekyll-feed
+  - jekyll-sitemap
+
+google_analytics: G-RZFZZ88DRV
+
 minima:
-     social_links:
-          - title: My GitHub
-            icon: github
-            url: "https://github.com/ris-iris"
+     #social_links:
+     #     - title: My GitHub
+     #       icon: github
+     #       url: "https://github.com/ris-iris"
 
      # Set to `true` to show excerpts on the homepage.
      show_excerpts: false
